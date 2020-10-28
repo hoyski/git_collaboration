@@ -17,9 +17,10 @@ public class GuessNumberApp {
         @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);            
         int count = 1;
-        while (true) {
+        int guess = sc.nextInt();
+        while (guess != number) {
             System.out.print("Your guess: ");
-            int guess = sc.nextInt();
+           
             
             if (guess < 1 || guess > LIMIT) {
                 System.out.println("Invalid guess. Try again.");
