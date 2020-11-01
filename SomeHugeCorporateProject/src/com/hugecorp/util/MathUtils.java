@@ -20,4 +20,8 @@ public class MathUtils {
 	public static int sum(int a, int b, int c, int d, int e, int f) {
 		return a + b + c + d + e + f;
 	}
+	
+	public static int diff(int a, int b) {
+		return a - b;
+	}
 }
