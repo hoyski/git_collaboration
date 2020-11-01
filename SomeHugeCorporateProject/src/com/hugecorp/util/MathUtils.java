@@ -12,4 +12,8 @@ public class MathUtils {
 	public static int sum(int a, int b, int c, int d) {
 		return a + b + c + d;
 	}
+	
+	public static int sum(int a, int b, int c, int d, int e) {
+		return a + b + c + d + e;
+	}
 }
